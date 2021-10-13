@@ -44,9 +44,10 @@
   border-radius: 0px !important;
   height: 105px;
   width: 100vw;
-  border-bottom: solid 1px !important;
-  /* box-shadow: none !important; */
-  border-color: rgb(190, 190, 190) !important;
+  border-bottom: solid 2px !important;
+  box-shadow: none !important;
+  border-color:#86A10B !important;
+  /* border-color: rgb(190, 190, 190) !important; */
 }
 .m-areas>div.m-area.m-top.m-right>div.m-panel.m-mapheader.collapsed{
   height: 0px !important;
@@ -56,7 +57,7 @@
   margin-right: 0px !important;
   border-radius: 0px !important;
   width: 100vw;
-  border-bottom: none !important;
+  border: none !important;
   
   
 }
@@ -66,22 +67,24 @@
   position: absolute;
   height: 25px !important;
   width: 90px !important;
-  top: 105px !important;
+  top: 103px !important;
   left: 0vw !important;
+  opacity: 1 !important;
   font-size: 12px !important;
   border-bottom-left-radius: 0px !important;
   border-bottom-right-radius: 10px !important;
   border-top-left-radius: 0px !important;
   border-top-right-radius: 0px !important;
-  background-image: linear-gradient(#bebebe, #ffffff,#ffffff);
-  border-bottom:solid 1px !important;
-  border-right:solid 1px !important;
-  border-top: none;
-  /* background-color: #e3e3e3 !important; */
+  background-image: linear-gradient(#ffffff,#ffffff,#bebebe);
+  border-bottom:solid 2px !important;
+  border-right:solid 2px !important;
+  border-top: none !important;
+  /* background-color: #ffffff !important; */
   color: #666 !important;
   /* box-shadow: none !important; */
-  box-shadow: 0 2px 4px rgb(0 0 0 / 20%), 0 -1px 0 rgb(0 0 0 / 2%);
-  border-color: rgb(190, 190, 190) !important;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 20%) !important;
+  border-color:#86A10B !important;
+  /* border-color: rgb(190, 190, 190) !important; */
  
 }
 
@@ -95,15 +98,16 @@
   border-bottom-right-radius: 10px !important;
   border-top-left-radius: 0px !important;
   border-top-right-radius: 0px !important;
-  background-image: linear-gradient(#bebebe, #ffffff,#ffffff);
-  border-bottom:solid 1px !important;
-  border-right:solid 1px !important;
-  border-top: none;
+  background-image: linear-gradient(#ffffff,#ffffff,#bebebe);
+  border-bottom:solid 2px !important;
+  border-right:solid 2px !important;
+  border-top: none !important;
   /* background-color: #e3e3e3 !important; */
   color: #666 !important;
   /* box-shadow: none !important; */
   box-shadow: 0 2px 4px rgb(0 0 0 / 20%), 0 -1px 0 rgb(0 0 0 / 2%);
-  border-color: rgb(190, 190, 190) !important;
+  border-color:#86A10B !important;
+  /* border-color: rgb(190, 190, 190) !important; */
  
 }
 
