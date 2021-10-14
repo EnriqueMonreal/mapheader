@@ -123,8 +123,8 @@ export default class MapheaderControl extends M.Control {
     // Selectores de Elementos
     let btnMapHeaderClosed = document.querySelectorAll('button.m-panel-btn.g-cartografia-flecha-abajo')[0];
     let btnMapHeaderOpened = document.querySelectorAll('button.m-panel-btn.g-cartografia-flecha-derecha')[0];
-
-
+      
+    
 
     btnMapHeaderOpened.title = 'Ocultar cabecera de página';
     btnMapHeaderClosed.title = 'Ocultar cabecera de página';
@@ -135,15 +135,15 @@ export default class MapheaderControl extends M.Control {
         btnMapHeaderOpened.title = 'Ocultar cabecera de página';
         btnMapHeaderClosed.title = 'Ocultar cabecera de página';
         this.opened = true;
-
         this.checkHeaderheight(html);
-        this.setTopMargin(this.opened);
+        this.setTopMargin(this.opened);       
       } else {
         btnMapHeaderOpened.title = 'Mostrar cabecera de página';
         btnMapHeaderClosed.title = 'Mostrar cabecera de página';
-        this.opened = false;
+        this.opened = false;       
         this.checkHeaderheight(html);
-        this.setTopMargin(this.opened);
+        this.setTopMargin(this.opened);        
+       
       }
     });
     
