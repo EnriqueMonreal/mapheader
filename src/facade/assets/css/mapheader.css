@@ -26,6 +26,10 @@
   margin-top: 10px !important;
   margin-right: 10px !important;
 }
+.m-areas>div.m-area>div.m-panel>div.m-panel-controls{
+  transition: none !important;  
+}
+
 .m-areas>div.m-area.m-top.m-right>div.m-panel.m-mapheader.opened{
   position: absolute;
   float: left;
@@ -88,7 +92,7 @@
   
 }
 .m-areas>div.m-area.m-top.m-right>div.m-panel.m-mapheader.opened>div.m-panel-controls>div.m-control.m-container.m-mapheader{
-  width: 100% !important;
+  width: 100vw !important;
 }
 .m-areas>div.m-area>div.m-panel.collapsed>div.m-panel-controls{
   transition: none !important;

@@ -164,7 +164,7 @@ export default class MapheaderControl extends M.Control {
     for (let index = 0; index < bottomElements.length; index++) {
       const element = bottomElements[index];
       if (element.classList.contains('m-left')) {
-        element.style.marginTop = this.panelHeight + 30 + "px";
+        element.style.marginTop = this.panelHeight + 35 + "px";
       }
     }
     bottomElements = document.querySelectorAll('div.m-top.m-right')[0].childNodes;
@@ -186,7 +186,7 @@ export default class MapheaderControl extends M.Control {
       const element = bottomElements[index];
       if (element.classList.contains('m-left')) {
         if (opened) {
-          element.style.marginTop = this.panelHeight + 30 + "px";
+          element.style.marginTop = this.panelHeight + 35 + "px";
         } else {
           element.style.marginTop = 30 + "px";
         }
